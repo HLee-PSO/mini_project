@@ -52,5 +52,6 @@ b_var[3,4,5]=50
 b_var[3,4,8]=113.75
 
 
-print(x_var)
-print(b_var)
+# a = np.array(x_var)
+c = np.where(x_var == 1)
+print(c)
