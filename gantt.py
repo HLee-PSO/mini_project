@@ -55,3 +55,11 @@ b_var[3,4,8]=113.75
 # a = np.array(x_var)
 c = np.where(x_var == 1)
 print(c)
+
+a = c[0]
+b = c[1]
+d = c[2]
+
+print(a)
+print(b)
+print(d)
